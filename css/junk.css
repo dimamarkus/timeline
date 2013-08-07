@@ -1,0 +1,39 @@
+.ss-links {
+  height: 3.2em; }
+  .ss-links h2 {
+    display: block;
+    float: left;
+    width: 40px;
+    margin: 1em; }
+
+.ss-tutorial-deco:before {
+  width: 19%;
+  height: 0px;
+  border-bottom: 5px solid #ddd;
+  border-bottom: 5px solid rgba(253, 252, 239, 0.3);
+  border-radius: 0 2px 2px 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: '';
+  margin-top: -3px; }
+
+.ss-tutorial-deco:after {
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  content: '';
+  position: absolute;
+  top: 50%;
+  margin-top: -10px; }
+
+.secondary {
+  margin-top: 2em; }
+
+.ss-tutorial {
+  overflow: hidden;
+  text-indent: -9000px;
+  text-align: left;
+  position: static;
+  margin-left: 17%; }
